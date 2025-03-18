@@ -10,8 +10,8 @@ A brief description of the project. Mention what it does and its purpose.
 - Static files management (CSS, JS, Images)
 
 ## 📁 Directory 
-
-FUllStack App              # Root directory
+'''plaintext
+FUllStack App           # Root directory
 │── .git/               # Git repository (created after running git init)
 │── .gitignore          # Files to exclude from Git
 │── manage.py           # Django’s CLI management tool
