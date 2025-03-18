@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}  <!-- Add this line -->
+
+{% block title %}Home - Django{% endblock %}
+
+{% block content %}
+  <h1>Welcome to Django Templates!</h1>
+  <img src="{% static 'images/logo.png' %}" alt="Logo">
+{% endblock %}
