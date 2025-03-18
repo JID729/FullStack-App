@@ -9,42 +9,44 @@ A brief description of the project. Mention what it does and its purpose.
 - API integration (if applicable)
 - Static files management (CSS, JS, Images)
 
-## 📁 Directory 
-'''plaintext
-FUllStack App           # Root directory
-│── .git/               # Git repository (created after running git init)
-│── .gitignore          # Files to exclude from Git
-│── manage.py           # Django’s CLI management tool
-│── requirements.txt    # Python dependencies (for Git and deployment)
-│── db.sqlite3          # Default SQLite database (ignored in production)
+### 📂 FullStack App - Project Structure
+
+```plaintext
+FullStack App              # Root directory
+│── .git/                  # Git repository (created after running git init)
+│── .gitignore             # Files to exclude from Git
+│── manage.py              # Django’s CLI management tool
+│── requirements.txt       # Python dependencies (for Git and deployment)
+│── db.sqlite3             # Default SQLite database (ignored in production)
 │
 ├── CPD Assessment Tool (Backend)/          # Django project folder (contains settings)
-│   │── init.py     # Makes this a Python package
-│   │── settings.py     # Main Django settings
-│   │── urls.py         # Main URL configuration
-│   │── asgi.py         # ASGI application entry point
-│   │── wsgi.py         # WSGI application entry point
+│   │── __init__.py      # Makes this a Python package
+│   │── settings.py      # Main Django settings
+│   │── urls.py          # Main URL configuration
+│   │── asgi.py          # ASGI application entry point
+│   │── wsgi.py          # WSGI application entry point
 │
-├── myapp/              # Django app folder
-│   │── init.py     # Makes this a Python package
-│   │── admin.py        # Admin panel configuration
-│   │── apps.py         # App configuration
-│   │── models.py       # Database models
-│   │── views.py        # View functions (renders templates)
-│   │── urls.py         # URL patterns for this app
-│   │── tests.py        # Test cases
-│   │── migrations/     # Database migrations
+├── myapp/                # Django app folder
+│   │── __init__.py       # Makes this a Python package
+│   │── admin.py          # Admin panel configuration
+│   │── apps.py           # App configuration
+│   │── models.py         # Database models
+│   │── views.py          # View functions (renders templates)
+│   │── urls.py           # URL patterns for this app
+│   │── tests.py          # Test cases
+│   │── migrations/       # Database migrations
 │
-├── templates/          # Templates folder (HTML files)
-│   ├── home.html       # Sample home template
-│   ├── base.html       # Base template (for reusability)
+├── templates/            # Templates folder (HTML files)
+│   ├── home.html         # Sample home template
+│   ├── base.html         # Base template (for reusability)
 │
-├── static/             # Static files (CSS, JS, images)
-│   ├── css/            # CSS files
-│   ├── js/             # JavaScript files
-│   ├── images/         # Image assets
+├── static/               # Static files (CSS, JS, images)
+│   ├── css/              # CSS files
+│   ├── js/               # JavaScript files
+│   ├── images/           # Image assets
 │
-└── venv/               # Virtual environment (optional, should be in .gitignore)
+└── venv/                 # Virtual environment (optional, should be in .gitignore)
+
 ## 🛠 Installation & Setup
 
 ### **Prerequisites**
