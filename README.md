@@ -46,6 +46,7 @@ FullStack App              # Root directory
 │   ├── images/           # Image assets
 │
 └── venv/                 # Virtual environment (optional, should be in .gitignore)
+---
 
 ## 🛠 Installation & Setup
 
